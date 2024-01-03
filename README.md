@@ -5,8 +5,8 @@ Building an Automated News Classification System with NLP Techniques
 ---
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://techcrunch.com/wp-content/uploads/2022/08/signal-newsletter-india.jpg" alt="Coding" width="450" height="250" />
-    <img src="https://krakensystems.co/assets/images/uploads/2018-09-17-figure1.png" alt="Coding" width="450" height="250" />
+    <img src="https://techcrunch.com/wp-content/uploads/2022/08/signal-newsletter-india.jpg" alt="Coding" width="350" height="250" />
+    <img src="https://krakensystems.co/assets/images/uploads/2018-09-17-figure1.png" alt="Coding" width="350" height="250" />
 </div>
 
 ---
