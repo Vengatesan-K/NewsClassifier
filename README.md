@@ -1,54 +1,71 @@
 # NewsClassifier
+
 Building an Automated News Classification System with NLP Techniques
-<hr>
-<img align="left" alt="coding" width="480" height="250" src="https://techcrunch.com/wp-content/uploads/2022/08/signal-newsletter-india.jpg" />
-<img align="right" alt="coding" width="480" height="250" src="https://krakensystems.co/assets/images/uploads/2018-09-17-figure1.png" />
-<hr/>
+
+---
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://techcrunch.com/wp-content/uploads/2022/08/signal-newsletter-india.jpg" alt="Coding" width="500" height="250" />
+    <img src="https://krakensystems.co/assets/images/uploads/2018-09-17-figure1.png" alt="Coding" width="500" height="250" />
+</div>
+
+---
 
 
 ## Context
-Building a news classification system involves several steps, including web scraping, data
-preprocessing, and model training.
-***
 
-## Steps Involved: 
+Building a news classification system involves several steps, including web scraping, data preprocessing, and model training.
+
+---
+
+## Steps Involved
+
 1. **Web Scraping**
-- Choosed news websites BBC, The Hindu, Times Now and CNN and used web scraping
-tools or libraries BeautifulSoup to extract news articles.
-- Retrieved the title and content of each news article. Ensured that have a diverse dataset
-covering various topics.
+    - Selected news websites such as BBC, The Hindu, Times Now, and CNN and utilized web scraping tools or libraries like BeautifulSoup to extract news articles.
+    - Retrieved the title and content of each news article, ensuring a diverse dataset covering various topics.
 
 2. **Data Cleaning and Preprocessing**
-- Removed all irrelevant information, such as HTML tags, advertisements, or non-text content.
-- Tokenized the text (split it into words or subwords) and removed stop words.
-- Performed lemmatization or stemming to reduce words to their base form.
-- Handled missing data and ensured a consistent format.
+    - Removed all irrelevant information, such as HTML tags, advertisements, or non-text content.
+    - Tokenized the text (split it into words or subwords) and removed stop words.
+    - Performed lemmatization or stemming to reduce words to their base form.
+    - Handled missing data and ensured a consistent format.
+
 3. **Text Representation**
-- Converted the text data into numerical format suitable for machine learning models. This can
-be done using techniques like TF-IDF (Term Frequency-Inverse Document Frequency) and word
-embeddings GloVe.
-- Used pre-trained word embeddings for better performance.
+    - Converted the text data into numerical format suitable for machine learning models, using techniques like TF-IDF (Term Frequency-Inverse Document Frequency) and word embeddings GloVe.
+    - Utilized pre-trained word embeddings for improved performance.
+
 4. **Topic Clustering**
-- Applied clustering algorithms K-means on the preprocessed text data to group similar articles together.
-- Choosed the number of clusters based on the topics you want to identify Global, Entertainment, Politics, Sports.
+    - Applied clustering algorithms like K-means on the preprocessed text data to group similar articles together.
+    - Determined the number of clusters based on desired topics such as Global, Entertainment, Politics, and Sports.
+
 5. **Topic Labeling**
-- Manually inspected a sample of articles in each cluster to assign topic labels. This step helps in
-labeling the clusters with meaningful topics.
+    - Manually inspected a sample of articles in each cluster to assign topic labels, facilitating meaningful topic labeling for the clusters.
+
 6. **Classification Model**
-- Splitted the data into training and testing sets.
-- Trained a supervised machine learning model (e.g., Naive Bayes, Support Vector Machines, or deep learning models like LSTM or BERT) to predict the topic of a news article.
-- Use the labeled clusters as ground truth labels for training the model.
+    - Split the data into training and testing sets.
+    - Trained a supervised machine learning model (e.g., Naive Bayes, Support Vector Machines, or deep learning models like LSTM or BERT) to predict the topic of a news article.
+    - Used the labeled clusters as ground truth labels for training the model.
+
 7. **Evaluation**
-- Evaluated the performance of your classification model on the testing set using appropriate metrics (accuracy, precision, recall, F1-score).
-- Fine-tuned the model parameters if needed to improve performance.
+    - Assessed the performance of the classification model on the testing set using appropriate metrics (accuracy, precision, recall, F1-score).
+    - Fine-tuned the model parameters as needed to enhance performance.
+
 8. **Deployment**
-- Deployed a classification application using Tkinter
+    - Deployed a classification application using Tkinter.
 
-***
+---
+
 ### Evaluation Metrics
-<img align="left" alt="coding" width="480" height="280" src="https://github.com/Vengatesan-K/Iris-Species/assets/128688827/d37653ed-9e4d-4f35-91dc-33d30e8c354b" />
-<img align="right" alt="coding" width="480" height="280" src="https://github.com/Vengatesan-K/Iris-Species/assets/128688827/3b41e587-77f6-4462-9d62-f7653f2dc022" />
 
+![Coding](https://github.com/Vengatesan-K/Iris-Species/assets/128688827/d37653ed-9e4d-4f35-91dc-33d30e8c354b)
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/Vengatesan-K/Iris-Species/assets/128688827/3b41e587-77f6-4462-9d62-f7653f2dc022" alt="Coding" width="500" height="250" />
+    <img src="https://github.com/Vengatesan-K/Iris-Species/assets/128688827/24b2f531-5c49-417c-891c-053694f09112" width="500" height="250" />
+</div>
+
+---
 
 ## News Classification System Interface
-<img alt="coding" src="https://github.com/Vengatesan-K/Python-Assessment/assets/128688827/bd8926ec-a9d9-4d92-a462-2c6cc993d40e" />
+
+![Coding](https://github.com/Vengatesan-K/Python-Assessment/assets/128688827/bd8926ec-a9d9-4d92-a462-2c6cc993d40e)
