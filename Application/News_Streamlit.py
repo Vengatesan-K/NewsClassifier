@@ -5,11 +5,11 @@ from streamlit_extras.mention import mention
 import joblib
 st.set_page_config(page_title="Topic & Sentiment Prediction of News Articles", page_icon="📰", layout="wide", initial_sidebar_state="auto")
 # Load the TF-IDF vectorizer used during training
-with open('tfidf_vectorizer.pkl', 'rb') as file:
+with open('Application/tfidf_vectorizer.pkl', 'rb') as file:
     tfidf_vectorizer = joblib.load(file)
 
 # Load the trained model from the file
-with open('ovr_svm_classifier.pkl', 'rb') as file:
+with open('Application/ovr_svm_classifier.pkl', 'rb') as file:
     loaded_model = joblib.load(file)
 
 # Initialize NLTK Sentiment Intensity Analyzer
