@@ -5,8 +5,8 @@ Building an Automated News Classification System with NLP Techniques
 ---
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://techcrunch.com/wp-content/uploads/2022/08/signal-newsletter-india.jpg" alt="Coding" width="500" height="250" />
-    <img src="https://krakensystems.co/assets/images/uploads/2018-09-17-figure1.png" alt="Coding" width="500" height="250" />
+    <img src="https://techcrunch.com/wp-content/uploads/2022/08/signal-newsletter-india.jpg" alt="Coding" width="450" height="250" />
+    <img src="https://krakensystems.co/assets/images/uploads/2018-09-17-figure1.png" alt="Coding" width="450" height="250" />
 </div>
 
 ---
@@ -60,8 +60,8 @@ Building a news classification system involves several steps, including web scra
 ![Coding](https://github.com/Vengatesan-K/Iris-Species/assets/128688827/d37653ed-9e4d-4f35-91dc-33d30e8c354b)
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/Vengatesan-K/Iris-Species/assets/128688827/3b41e587-77f6-4462-9d62-f7653f2dc022" alt="Coding" width="500" height="250" />
-    <img src="https://github.com/Vengatesan-K/Iris-Species/assets/128688827/24b2f531-5c49-417c-891c-053694f09112" width="500" height="250" />
+    <img src="https://github.com/Vengatesan-K/Iris-Species/assets/128688827/3b41e587-77f6-4462-9d62-f7653f2dc022" alt="Coding" width="450" height="250" />
+    <img src="https://github.com/Vengatesan-K/Iris-Species/assets/128688827/24b2f531-5c49-417c-891c-053694f09112" width="450" height="250" />
 </div>
 
 ---
