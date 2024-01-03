@@ -27,12 +27,14 @@ Building a news classification system involves several steps, including web scra
 1. **Web Scraping**
     - Selected news websites such as **BBC, The Hindu, Times Now, TOI and CNN** and utilized web scraping tools or libraries like BeautifulSoup to extract news articles.
     - Retrieved the title and content of each news article, ensuring a diverse dataset covering various topics.
-    - **[https://github.com/News%20Scraping]("https://github.com/Vengatesan-K/NewsClassifier/blob/main/News%20Scraping/News_Scraping.ipynb")**
+    - **[WebScraping-Process-Link](https://github.com/Vengatesan-K/NewsClassifier/blob/main/News%20Scraping/News_Scraping.ipynb)**
+      
 2. **Data Cleaning and Preprocessing**
     - Removed all irrelevant information, such as HTML tags, advertisements, or non-text content.
     - Tokenized the text (split it into words or subwords) and removed stop words.
     - Performed lemmatization or stemming to reduce words to their base form.
     - Handled missing data and ensured a consistent format.
+    - **[Preprocessing Scrapped/Collected Data](https://github.com/Vengatesan-K/NewsClassifier/blob/main/Preprocessing/News_Preprocessing.ipynb)**
 
 3. **Text Representation**
     - Converted the text data into numerical format suitable for machine learning models, using techniques like TF-IDF (Term Frequency-Inverse Document Frequency) and word embeddings GloVe.
@@ -47,7 +49,7 @@ Building a news classification system involves several steps, including web scra
 
 6. **Classification Model**
     - Split the data into training and testing sets.
-    - Trained a supervised machine learning model (e.g., Naive Bayes, Support Vector Machines, or deep learning models like LSTM or BERT) to predict the topic of a news article.
+    - Trained a supervised machine learning model (e.g., Naive Bayes, Support Vector Machines) to predict the topic of a news article.
     - Used the labeled clusters as ground truth labels for training the model.
 
 7. **Evaluation**
@@ -56,6 +58,8 @@ Building a news classification system involves several steps, including web scra
 
 8. **Deployment**
     - Deployed a classification application using Tkinter.
+    - Deployed a classification application using Streamlit.
+    - **[Streamlit-Web Application Link](https://vengat-newsclassifier-yncxskbpoprcqnjaijcxma.streamlit.app/)**
 
 ---
 
