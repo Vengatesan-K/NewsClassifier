@@ -3,6 +3,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.sentiment import SentimentIntensityAnalyzer
 from streamlit_extras.mention import mention
 import joblib
+import nltk
+nltk.download('vader_lexicon')
 st.set_page_config(page_title="Topic & Sentiment Prediction of News Articles", page_icon="📰", layout="wide", initial_sidebar_state="auto")
 # Load the TF-IDF vectorizer used during training
 with open('Application/tfidf_vectorizer.pkl', 'rb') as file:
