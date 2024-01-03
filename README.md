@@ -39,10 +39,11 @@ Building a news classification system involves several steps, including web scra
 3. **Text Representation**
     - Converted the text data into numerical format suitable for machine learning models, using techniques like TF-IDF (Term Frequency-Inverse Document Frequency) and word embeddings GloVe.
     - Utilized pre-trained word embeddings for improved performance.
+    - **[TF-IDF_Model](https://github.com/Vengatesan-K/NewsClassifier/blob/main/Application/tfidf_vectorizer.pkl)**
 
 4. **Topic Clustering**
     - Applied clustering algorithms like K-means on the preprocessed text data to group similar articles together.
-    - Determined the number of clusters based on desired topics such as Global, Entertainment, Politics, and Sports.
+    - Determined the number of clusters based on desired topics such as Global, Entertainment, Politics, Business and Sports.
 
 5. **Topic Labeling**
     - Manually inspected a sample of articles in each cluster to assign topic labels, facilitating meaningful topic labeling for the clusters.
@@ -51,7 +52,8 @@ Building a news classification system involves several steps, including web scra
     - Split the data into training and testing sets.
     - Trained a supervised machine learning model (e.g., Naive Bayes, Support Vector Machines) to predict the topic of a news article.
     - Used the labeled clusters as ground truth labels for training the model.
-
+    - **[Best Model Achieved by Support Vector Machine Algorithm - Link](https://github.com/Vengatesan-K/NewsClassifier/blob/main/Application/ovr_svm_classifier.pkl)**
+      
 7. **Evaluation**
     - Assessed the performance of the classification model on the testing set using appropriate metrics (accuracy, precision, recall, F1-score).
     - Fine-tuned the model parameters as needed to enhance performance.
