@@ -66,6 +66,12 @@ Building a news classification system involves several steps, including web scra
 
 ---
 
-## News Classification System Interface
+## News Classification System Interfaces :
+
+### Tkinter's Interface:
 
 ![Coding](https://github.com/Vengatesan-K/Python-Assessment/assets/128688827/bd8926ec-a9d9-4d92-a462-2c6cc993d40e)
+
+### Streamlit Interface :
+
+![Screenshot 2024-01-03 165840](https://github.com/Vengatesan-K/IMDB-Movies-Analysis/assets/128688827/fc0ec77c-9d0a-487f-91c9-cdaba7b3c031)
