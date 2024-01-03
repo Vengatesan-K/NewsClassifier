@@ -1,8 +1,9 @@
 # NewsClassifier
 Building an Automated News Classification System with NLP Techniques
-
+<hr>
 <img align="left" alt="coding" width="480" height="250" src="https://techcrunch.com/wp-content/uploads/2022/08/signal-newsletter-india.jpg" />
 <img align="right" alt="coding" width="480" height="250" src="https://krakensystems.co/assets/images/uploads/2018-09-17-figure1.png" />
+<hr/>
 
 
 ## Context
